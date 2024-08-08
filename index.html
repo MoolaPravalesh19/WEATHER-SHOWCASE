@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="search">
+            <input type="text" placeholder="Enter your area" spellcheck="false" id="text">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="icon">
+            <img src="clear.png" alt="" id="image">
+            <h1 id="temp">7°c</h1>
+            <h2 id="area">Rourkela</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://icons.iconarchive.com/icons/icons8/ios7/512/Science-Humidity-icon.png" alt="">
+                    <div class="info">
+                        <p class="percentage">50%</p>
+                        <p class="parameters">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn0.iconfinder.com/data/icons/speed-related-1/66/41-512.png" alt="">
+                    <div class="info">
+                        <p class="speed">10km/h</p>
+                        <p class="parameters">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
